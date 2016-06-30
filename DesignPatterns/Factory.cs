@@ -3,7 +3,7 @@
     /// <summary>
     /// This is the factory pattern.
     ///
-    /// The factory class's job is to return an implementation of the abstract AnimalBase class based on a parametre.
+    /// The factory class's job is to return an implementation of the abstract AnimalBase class based on a parameter.
     /// </summary>
     public class AnimalFactory
     {
@@ -25,8 +25,6 @@
 
     public abstract class AnimalBase
     {
-        public virtual string Name { get; set; }
-
         public abstract string SongOfItsPeople();
     }
 

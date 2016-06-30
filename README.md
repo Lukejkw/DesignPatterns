@@ -1,7 +1,13 @@
-# README #
+# Design Patterns #
 
-This is super simple VS Solution to show how to implement certain design patterns in C#.
+This is simple VS Solution to show how to implement certain design patterns in C#.
 
-If you have fixes, other ways to write the pattern etc please feel free to put in a pull request.
+## Current Pattern Examples ##
 
-Any questions can be directed to the Issues section.
+1. Singleton (Basic, Lazy and Lazy Thread Safe)
+2. Factory (Basic)
+3. Pub-Sub (Basic)
+
+## Contibutions | Fixes ##
+
+Please feel free :)
