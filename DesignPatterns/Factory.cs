@@ -1,5 +1,10 @@
 ﻿namespace DesignPatterns
 {
+    /// <summary>
+    /// This is the factory pattern.
+    ///
+    /// The factory class's job is to return an implementation of the abstract AnimalBase class based on a parametre.
+    /// </summary>
     public class AnimalFactory
     {
         public static AnimalBase GetAnimal(int typeId)
