@@ -14,5 +14,11 @@ namespace DesignPatterns.Test
 
             Assert.AreEqual(instance1, instance2);
         }
+
+        [TestMethod]
+        public void SingletonInstanceNotNull()
+        {
+            Assert.IsNotNull(Singleton.Instance);
+        }
     }
 }
