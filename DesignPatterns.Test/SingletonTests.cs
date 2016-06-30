@@ -12,7 +12,7 @@ namespace DesignPatterns.Test
             Singleton instance1 = Singleton.Instance;
             Singleton instance2 = Singleton.Instance;
 
-            Assert.AreEqual(instance1, instance2);
+            Assert.AreSame(instance1, instance2);
         }
 
         [TestMethod]
